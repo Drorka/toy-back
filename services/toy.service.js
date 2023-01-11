@@ -14,6 +14,7 @@ function query(filterBy) {
 		const regex = new RegExp(filterBy.name, 'i')
 		filteredToys = filteredToys.filter((toy) => regex.test(toy.name))
 	}
+
 	if (filterBy.inStock === 'all') {
 		filteredToys = toys
 	}
@@ -22,6 +23,13 @@ function query(filterBy) {
 	}
 	if (filterBy.inStock === 'unavailable') {
 		filteredToys = filteredToys.filter((toy) => !toy.inStock)
+	}
+
+	if (filterBy.labels.length) {
+		filterBy.labels = filterBy.labels.split(',')
+		filteredToys = filteredToys.filter((toy) =>
+			filterBy.labels.every((i) => toy.labels.includes(i))
+		)
 	}
 	return Promise.resolve(filteredToys)
 }
