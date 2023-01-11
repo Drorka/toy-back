@@ -14,9 +14,15 @@ function query(filterBy) {
 		const regex = new RegExp(filterBy.name, 'i')
 		filteredToys = filteredToys.filter((toy) => regex.test(toy.name))
 	}
-	// if (filterBy.maxPrice) {
-	// 	filteredToys = filteredToys.filter((toy) => toy.price <= filterBy.maxPrice)
-	// }
+	if (filterBy.inStock === 'all') {
+		filteredToys = toys
+	}
+	if (filterBy.inStock === 'available') {
+		filteredToys = filteredToys.filter((toy) => toy.inStock)
+	}
+	if (filterBy.inStock === 'unavailable') {
+		filteredToys = filteredToys.filter((toy) => !toy.inStock)
+	}
 	return Promise.resolve(filteredToys)
 }
 
