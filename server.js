@@ -25,6 +25,7 @@ app.use(express.json())
 // Real routing express
 // List
 app.get('/api/toy', (req, res) => {
+	console.log('get req.query', req.query)
 	const filterBy = req.query
 	toyService
 		.query(filterBy)
@@ -41,7 +42,7 @@ app.get('/api/toy', (req, res) => {
 app.put('/api/toy', (req, res) => {
 	// const loggedinUser = userService.validateToken(req.cookies.loginToken)
 	// if (!loggedinUser) return res.status(401).send('Cannot update toy')
-
+	console.log('put req.body', req.body)
 	const toy = req.body
 	console.log('CAR ---------', toy)
 	toyService
@@ -57,6 +58,8 @@ app.put('/api/toy', (req, res) => {
 
 // Create
 app.post('/api/toy', (req, res) => {
+	console.log('post req.body', req.body)
+
 	// const loggedinUser = userService.validateToken(req.cookies.loginToken)
 	// if (!loggedinUser) return res.status(401).send('Cannot add toy')
 
@@ -74,6 +77,8 @@ app.post('/api/toy', (req, res) => {
 
 // Read - GetById
 app.get('/api/toy/:toyId', (req, res) => {
+	console.log('get req.params', req.params)
+
 	const { toyId } = req.params
 	toyService
 		.get(toyId)
@@ -88,6 +93,8 @@ app.get('/api/toy/:toyId', (req, res) => {
 
 // Remove
 app.delete('/api/toy/:toyId', (req, res) => {
+	console.log('delete req.params', req.params)
+
 	// const loggedinUser = userService.validateToken(req.cookies.loginToken)
 	// if (!loggedinUser) return res.status(401).send('Cannot update toy')
 
@@ -103,7 +110,7 @@ app.delete('/api/toy/:toyId', (req, res) => {
 		})
 })
 
-// User API:
+// * User API:
 // List
 // app.get('/api/user', (req, res) => {
 //     const filterBy = req.query

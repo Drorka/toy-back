@@ -21,12 +21,14 @@ function query(filterBy) {
 }
 
 function get(toyId) {
+	console.log('service get', toyId)
 	const toy = toys.find((toy) => toy._id === toyId)
 	if (!toy) return Promise.reject('Toy not found')
 	return Promise.resolve(toy)
 }
 
 function remove(toyId) {
+	console.log('remove', toyId)
 	const idx = toys.findIndex((toy) => toy._id === toyId)
 	if (idx === -1) return Promise.reject('No Such Toy')
 	const toy = toys[idx]
@@ -36,6 +38,7 @@ function remove(toyId) {
 }
 
 function save(toy) {
+	console.log('save', toy)
 	if (toy._id) {
 		const toyToUpdate = toys.find((currToy) => currToy._id === toy._id)
 		if (!toyToUpdate) return Promise.reject('No such Toy')

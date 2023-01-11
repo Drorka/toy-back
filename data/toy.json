@@ -26,18 +26,6 @@
     "img": "Furby_picture.jpg"
   },
   {
-    "_id": "t103",
-    "name": "Puzzle",
-    "price": 150,
-    "labels": [
-      "Puzzle",
-      "Box game"
-    ],
-    "createdAt": 1631031801011,
-    "inStock": true,
-    "img": "Furby_picture.jpg"
-  },
-  {
     "_id": "t105",
     "name": "Playing Cards",
     "price": 65,
@@ -47,5 +35,12 @@
     "createdAt": 1631031801011,
     "inStock": false,
     "img": "Furby_picture.jpg"
+  },
+  {
+    "name": "Shmuel",
+    "price": "2000",
+    "labels": [],
+    "inStock": true,
+    "_id": "ubOzt"
   }
 ]
