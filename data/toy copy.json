@@ -1,0 +1,48 @@
+[ 
+    {
+        "_id": "t101", 
+        "name": "Talking Doll", 
+        "price": 123, 
+        "labels": ["Doll", "Battery Powered", "Baby"],
+        "createdAt": 1631031801011,
+        "inStock": true,
+        "img": "Furby_picture.jpg"
+    },
+
+    {
+        "_id": "t102", 
+        "name": "Race Car", 
+        "price": 80, 
+        "labels": ["Car", "Battery Powered", "On wheels"],
+        "createdAt": 1631031801011,
+        "inStock": true,
+        "img": "Furby_picture.jpg"
+    },
+    {
+        "_id": "t103", 
+        "name": "Puzzle", 
+        "price": 150, 
+        "labels": ["Puzzle", "Box game"],
+        "createdAt": 1631031801011,
+        "inStock": true,
+        "img": "Furby_picture.jpg"
+    },
+    {
+        "_id": "t104", 
+        "name": "Football", 
+        "price": 100, 
+        "labels": ["Outdoor"],
+        "createdAt": 1631031801011,
+        "inStock": false,
+        "img": "Furby_picture.jpg"
+    },
+    {
+        "_id": "t105", 
+        "name": "Playing Cards", 
+        "price": 65, 
+        "labels": ["Cards"],
+        "createdAt": 1631031801011,
+        "inStock": false,
+        "img": "Furby_picture.jpg"
+    }
+]
