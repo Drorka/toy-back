@@ -42,5 +42,12 @@
     "labels": [],
     "inStock": true,
     "_id": "ubOzt"
+  },
+  {
+    "name": "Ball",
+    "price": 10,
+    "labels": [],
+    "inStock": true,
+    "_id": "VbeYU"
   }
 ]
