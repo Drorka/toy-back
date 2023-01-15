@@ -1,18 +1,30 @@
 const dbService = require('../../services/db.service')
-// const logger = require('../../services/logger.service')
+const logger = require('../../services/logger.service')
 const utilService = require('../../services/util.service')
 const ObjectId = require('mongodb').ObjectId
 
 async function query(filterBy = { name: '' }) {
 	try {
 		const criteria = {
-			name: { $regex: filterBy.name, $options: 'i' },
+			// toyName: { $regex: filterBy.txt, $options: 'i' }
 		}
+		if (filterBy.name) {
+			const regex = new RegExp(filterBy.name, 'i')
+			criteria.toyName = { $regex: regex }
+		}
+		if (filterBy.maxPrice) {
+			criteria.price = { $lte: filterBy.maxPrice }
+		}
+
 		const collection = await dbService.getCollection('toys')
 		var toys = await collection.find(criteria).toArray()
+		toys = toys.map((toy) => {
+			toy.createdAt = +ObjectId(toy._id).getTimestamp()
+			return toy
+		})
 		return toys
 	} catch (err) {
-		// logger.error('cannot find toys', err)
+		logger.error('cannot find toys', err)
 		throw err
 	}
 }
@@ -23,7 +35,7 @@ async function getById(toyId) {
 		const toy = collection.findOne({ _id: ObjectId(toyId) })
 		return toy
 	} catch (err) {
-		// logger.error(`while finding toy ${toyId}`, err)
+		logger.error(`while finding toy ${toyId}`, err)
 		throw err
 	}
 }
@@ -34,7 +46,7 @@ async function remove(toyId) {
 		await collection.deleteOne({ _id: ObjectId(toyId) })
 		return toyId
 	} catch (err) {
-		// logger.error(`cannot remove toy ${toyId}`, err)
+		logger.error(`cannot remove toy ${toyId}`, err)
 		console.log(`cannot remove toy ${toyId}`, err)
 		throw err
 	}
@@ -56,26 +68,34 @@ async function update(toy) {
 		const toyToSave = {
 			name: toy.name,
 			price: toy.price,
+			inStock: toy.inStock,
 		}
 		const collection = await dbService.getCollection('toys')
 		await collection.updateOne({ _id: ObjectId(toy._id) }, { $set: toyToSave })
 		return toy
 	} catch (err) {
-		// logger.error(`cannot update toy ${toyId}`, err)
+		logger.error(`cannot update toy ${toyId}`, err)
 		console.log(`cannot update toy ${toyId}`, err)
 		throw err
 	}
 }
 
-async function addToyMsg(toyId, msg) {
+async function addToyMsg(toyId, msg, loggedinUser) {
 	try {
-		msg.id = utilService.makeId()
+		const msgToSave = {
+			...msg,
+			by: {
+				fullname: loggedinUser.fullname,
+				_id: loggedinUser._id,
+			},
+		}
+		// msg.id = utilService.makeId()
 		const collection = await dbService.getCollection('toys')
 		await collection.updateOne(
 			{ _id: ObjectId(toyId) },
-			{ $push: { msgs: msg } }
+			{ $push: { msgs: msgToSave } }
 		)
-		return msg
+		return msgToSave
 	} catch (err) {
 		logger.error(`cannot add toy msg ${toyId}`, err)
 		throw err

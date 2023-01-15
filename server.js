@@ -1,9 +1,9 @@
 const express = require('express')
 const cookieParser = require('cookie-parser')
-// const toyService = require('./services/toy.service.js')
-// const userService = require('./services/user.service.js')
 const cors = require('cors')
 const path = require('path')
+// const toyService = require('./services/toy.service.js')
+// const userService = require('./services/user.service.js')
 
 const app = express()
 const http = require('http').createServer(app)
@@ -31,13 +31,16 @@ if (process.env.NODE_ENV === 'production') {
 	app.use(cors(corsOptions))
 }
 
-// const authRoutes = require('./api/auth/auth.routes')
-// const userRoutes = require('./api/user/user.routes')
+const authRoutes = require('./api/auth/auth.routes')
+const userRoutes = require('./api/user/user.routes')
 const toyRoutes = require('./api/toy/toy.routes')
 
+const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
+app.all('*', setupAsyncLocalStorage)
+
 // routes
-// app.use('/api/auth', authRoutes)
-// app.use('/api/user', userRoutes)
+app.use('/api/auth', authRoutes)
+app.use('/api/user', userRoutes)
 app.use('/api/toy', toyRoutes)
 
 // Make every server-side-route to match the index.html
@@ -47,10 +50,10 @@ app.get('/**', (req, res) => {
 	res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
-// const logger = require('./services/logger.service')
+const logger = require('./services/logger.service')
 const port = process.env.PORT || 3030
 http.listen(port, () => {
-	// logger.info('Server is running on port: ' + port)
+	logger.info('Server is running on port: ' + port)
 })
 
 ///////////////////////////////////////////////
