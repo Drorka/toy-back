@@ -74,7 +74,7 @@ async function addToyMsg(req, res) {
 	try {
 		const toyId = req.params.id
 		const { msg } = req.body
-		console.log('msgcont:', msg)
+		console.log('addToyMsg:', msg)
 
 		const savedMsg = await toyService.addToyMsg(toyId, msg, loggedinUser)
 		res.json(savedMsg)

@@ -928,3 +928,215 @@
 15.1.2023, 20:37:39 - ERROR - Failed to update toy | ReferenceError: loggedinUser is not defined (userId: 63c4343bfd991b61bf603c80)
 15.1.2023, 20:38:15 - INFO - Server is running on port: 3030 
 15.1.2023, 20:40:11 - INFO - Server is running on port: 3030 
+16.1.2023, 16:22:48 - INFO - Server is running on port: 3030 
+16.1.2023, 16:22:59 - INFO - Server is running on port: 3030 
+16.1.2023, 16:23:35 - INFO - Server is running on port: 3030 
+16.1.2023, 16:23:36 - INFO - New connected socket [id: 871lBeVrIJH3IOs9AAAB] 
+16.1.2023, 16:23:36 - INFO - New chat msg from socket [id: 871lBeVrIJH3IOs9AAAB], emitting to topic Love 
+16.1.2023, 16:23:36 - INFO - Setting socket.userId = 63c4343bfd991b61bf603c80 for socket [id: 871lBeVrIJH3IOs9AAAB] 
+16.1.2023, 16:24:39 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:24:40 - INFO - New connected socket [id: KO-GZiFvZRwuF3D4AAAD] 
+16.1.2023, 16:24:41 - INFO - Setting socket.userId = 63c4343bfd991b61bf603c80 for socket [id: KO-GZiFvZRwuF3D4AAAD] 
+16.1.2023, 16:24:51 - INFO - New chat msg from socket [id: KO-GZiFvZRwuF3D4AAAD], emitting to topic Love 
+16.1.2023, 16:25:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:25:51 - INFO - New connected socket [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:25:52 - INFO - Setting socket.userId = 63c4343bfd991b61bf603c80 for socket [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:27:47 - INFO - New connected socket [id: BKMjCXJY4CKjnk_KAAAH] 
+16.1.2023, 16:27:56 - DEBUG - auth.service - login with username: shuki 
+16.1.2023, 16:27:56 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 16:27:56 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:27:56 - INFO - New connected socket [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:27:59 - DEBUG - Getting Toys 
+16.1.2023, 16:27:59 - DEBUG - Getting Toys 
+16.1.2023, 16:28:00 - DEBUG - Getting Toys 
+16.1.2023, 16:28:09 - INFO - New chat msg from socket [id: oAm4VG-RN5A5bQ_1AAAF], emitting to topic Love 
+16.1.2023, 16:28:12 - INFO - New chat msg from socket [id: 8FWC3-udQ_1pYWfeAAAJ], emitting to topic Love 
+16.1.2023, 16:28:14 - INFO - Socket is leaving topic Love [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:28:15 - INFO - Socket is leaving topic Politics [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:28:16 - INFO - Socket is leaving topic Love [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:28:18 - INFO - New chat msg from socket [id: 8FWC3-udQ_1pYWfeAAAJ], emitting to topic Politics 
+16.1.2023, 16:28:20 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:28:22 - INFO - New chat msg from socket [id: oAm4VG-RN5A5bQ_1AAAF], emitting to topic Politics 
+16.1.2023, 16:31:35 - INFO - Socket is leaving topic Politics [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:31:36 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:31:37 - INFO - Socket is leaving topic Politics [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:31:38 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:32:15 - INFO - New chat msg from socket [id: oAm4VG-RN5A5bQ_1AAAF], emitting to topic Politics 
+16.1.2023, 16:41:55 - INFO - Socket is leaving topic Politics [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:41:56 - INFO - Socket is leaving topic Politics [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:42:35 - DEBUG - Getting Toys (userId: 63c4343bfd991b61bf603c80)
+16.1.2023, 16:42:35 - DEBUG - Getting Toys (userId: 63c4343bfd991b61bf603c80)
+16.1.2023, 16:42:35 - DEBUG - Getting Toys (userId: 63c4343bfd991b61bf603c80)
+16.1.2023, 16:42:38 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:42:38 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:42:42 - INFO - New chat msg from socket [id: oAm4VG-RN5A5bQ_1AAAF], emitting to topic 63c436721272bade12af97da 
+16.1.2023, 16:42:44 - INFO - New chat msg from socket [id: oAm4VG-RN5A5bQ_1AAAF], emitting to topic 63c436721272bade12af97da 
+16.1.2023, 16:42:46 - DEBUG - Getting Toys (userId: 63c4343bfd991b61bf603c80)
+16.1.2023, 16:42:46 - DEBUG - Getting Toys (userId: 63c4343bfd991b61bf603c80)
+16.1.2023, 16:42:47 - DEBUG - Getting Toys (userId: 63c4343bfd991b61bf603c80)
+16.1.2023, 16:42:48 - INFO - Socket is leaving topic 63c436721272bade12af97da [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:42:48 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:51:20 - INFO - New chat msg from socket [id: 8FWC3-udQ_1pYWfeAAAJ], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 16:58:49 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:58:49 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:58:49 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:58:49 - INFO - Socket is leaving topic Love [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:58:58 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:58:58 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:58:58 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:58:58 - INFO - Socket is leaving topic Love [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:59:03 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:59:03 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 16:59:04 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:59:04 - INFO - Socket is leaving topic Love [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 16:59:14 - INFO - New chat msg from socket [id: 8FWC3-udQ_1pYWfeAAAJ], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 16:59:17 - INFO - New chat msg from socket [id: oAm4VG-RN5A5bQ_1AAAF], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 16:59:41 - INFO - New chat msg from socket [id: 8FWC3-udQ_1pYWfeAAAJ], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:04:12 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 17:04:12 - INFO - Socket is leaving topic Love [id: 8FWC3-udQ_1pYWfeAAAJ] 
+16.1.2023, 17:04:12 - INFO - Socket is leaving topic 63c4440113aaf68946cc55d9 [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 17:04:12 - INFO - Socket is leaving topic Love [id: oAm4VG-RN5A5bQ_1AAAF] 
+16.1.2023, 17:13:35 - INFO - Server is running on port: 3030 
+16.1.2023, 17:13:36 - INFO - New connected socket [id: XPJiHSTSsqsynYD2AAAB] 
+16.1.2023, 17:13:36 - INFO - New connected socket [id: j1yCP9V8BAtPCnOcAAAD] 
+16.1.2023, 17:13:45 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:46 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:51 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:51 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:51 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:51 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:51 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:51 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:52 - INFO - broadcasting user is typing 
+16.1.2023, 17:13:52 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:24 - INFO - Socket is leaving topic Love [id: j1yCP9V8BAtPCnOcAAAD] 
+16.1.2023, 17:15:24 - INFO - Socket is leaving topic Love [id: XPJiHSTSsqsynYD2AAAB] 
+16.1.2023, 17:15:28 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:28 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:28 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:28 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:29 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:29 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:29 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:29 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:29 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:31 - INFO - New chat msg from socket [id: XPJiHSTSsqsynYD2AAAB], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:15:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:15:58 - INFO - New chat msg from socket [id: XPJiHSTSsqsynYD2AAAB], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:16:00 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:00 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:00 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:01 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:01 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:01 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:01 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:01 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:01 - INFO - New chat msg from socket [id: j1yCP9V8BAtPCnOcAAAD], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:16:03 - INFO - New chat msg from socket [id: XPJiHSTSsqsynYD2AAAB], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:16:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:16:07 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:16:08 - INFO - New connected socket [id: HrLoOEz2bTk8gxxaAAAF] 
+16.1.2023, 17:16:09 - INFO - New connected socket [id: nBSvvyA0G9O5LNczAAAH] 
+16.1.2023, 17:16:09 - INFO - Socket is leaving topic Love [id: HrLoOEz2bTk8gxxaAAAF] 
+16.1.2023, 17:16:09 - INFO - Setting socket.userId = 63c4343bfd991b61bf603c80 for socket [id: HrLoOEz2bTk8gxxaAAAF] 
+16.1.2023, 17:16:10 - INFO - Socket is leaving topic Love [id: nBSvvyA0G9O5LNczAAAH] 
+16.1.2023, 17:16:11 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:11 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:11 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:11 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:11 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:12 - INFO - New chat msg from socket [id: nBSvvyA0G9O5LNczAAAH], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:16:18 - DEBUG - auth.service - login with username: shuki 
+16.1.2023, 17:16:18 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 17:16:18 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:16:19 - INFO - New connected socket [id: 9Mq4NqqVSPwSmA3DAAAJ] 
+16.1.2023, 17:16:22 - DEBUG - Getting Toys 
+16.1.2023, 17:16:22 - DEBUG - Getting Toys 
+16.1.2023, 17:16:22 - DEBUG - Getting Toys 
+16.1.2023, 17:16:24 - INFO - Socket is leaving topic Love [id: 9Mq4NqqVSPwSmA3DAAAJ] 
+16.1.2023, 17:16:25 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:25 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:25 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:25 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:26 - INFO - broadcasting user is typing 
+16.1.2023, 17:16:26 - INFO - New chat msg from socket [id: 9Mq4NqqVSPwSmA3DAAAJ], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:16:33 - DEBUG - auth.service - login with username: shuki 
+16.1.2023, 17:16:33 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 17:16:33 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:16:34 - INFO - New connected socket [id: 9lhhpj30lxDk7ttaAAAL] 
+16.1.2023, 17:16:36 - DEBUG - Getting Toys 
+16.1.2023, 17:16:36 - DEBUG - Getting Toys 
+16.1.2023, 17:16:36 - DEBUG - Getting Toys 
+16.1.2023, 17:18:57 - INFO - Socket is leaving topic Love [id: 9lhhpj30lxDk7ttaAAAL] 
+16.1.2023, 17:18:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:18:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:18:58 - INFO - broadcasting user is typing 
+16.1.2023, 17:18:59 - INFO - broadcasting user is typing 
+16.1.2023, 17:18:59 - INFO - broadcasting user is typing 
+16.1.2023, 17:18:59 - INFO - broadcasting user is typing 
+16.1.2023, 17:18:59 - INFO - broadcasting user is typing 
+16.1.2023, 17:18:59 - INFO - broadcasting user is typing 
+16.1.2023, 17:18:59 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:00 - INFO - New chat msg from socket [id: 9lhhpj30lxDk7ttaAAAL], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:19:04 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:04 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:04 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:04 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:04 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:05 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:05 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:05 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:05 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:06 - INFO - New chat msg from socket [id: HrLoOEz2bTk8gxxaAAAF], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:19:13 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:13 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:13 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:13 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:14 - INFO - New chat msg from socket [id: 9lhhpj30lxDk7ttaAAAL], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:19:15 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:15 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:15 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:15 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:15 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:16 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:16 - INFO - broadcasting user is typing 
+16.1.2023, 17:19:16 - INFO - New chat msg from socket [id: HrLoOEz2bTk8gxxaAAAF], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:32:04 - INFO - Server is running on port: 3030 
+16.1.2023, 17:32:04 - INFO - New connected socket [id: l7RQLfOL7sZrC9DmAAAB] 
+16.1.2023, 17:32:04 - INFO - New connected socket [id: VkGfa2qxNLRLcE93AAAD] 
+16.1.2023, 17:53:00 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:00 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:00 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:02 - INFO - New chat msg from socket [id: VkGfa2qxNLRLcE93AAAD], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:53:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:53:31 - INFO - New chat msg from socket [id: VkGfa2qxNLRLcE93AAAD], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:55:09 - INFO - Server is running on port: 3030 
+16.1.2023, 17:55:10 - INFO - New connected socket [id: j9XiWGRc9QOHUfM-AAAB] 
+16.1.2023, 17:55:10 - INFO - New connected socket [id: ixCXPfeKFRBP75-qAAAD] 
+16.1.2023, 17:56:29 - INFO - broadcasting user is typing 
+16.1.2023, 17:56:29 - INFO - broadcasting user is typing 
+16.1.2023, 17:56:29 - INFO - broadcasting user is typing 
+16.1.2023, 17:56:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:56:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:56:30 - INFO - broadcasting user is typing 
+16.1.2023, 17:56:30 - INFO - New chat msg from socket [id: j9XiWGRc9QOHUfM-AAAB], emitting to topic 63c4440113aaf68946cc55d9 
+16.1.2023, 17:58:36 - INFO - Server is running on port: 3030 
+16.1.2023, 17:58:36 - INFO - New connected socket [id: tpRQ1lfkNnMTysjVAAAC] 
+16.1.2023, 17:58:36 - INFO - New connected socket [id: 1JdjWcI8U3v1daSdAAAD] 
+16.1.2023, 18:03:08 - INFO - broadcasting user is typing 
+16.1.2023, 18:03:08 - INFO - broadcasting user is typing 
+16.1.2023, 18:03:08 - INFO - broadcasting user is typing 
+16.1.2023, 18:03:08 - INFO - broadcasting user is typing 
+16.1.2023, 18:03:08 - INFO - broadcasting user is typing 
+16.1.2023, 18:03:09 - INFO - New chat msg from socket [id: tpRQ1lfkNnMTysjVAAAC], emitting to topic undefined 
+16.1.2023, 18:05:00 - INFO - Socket disconnected [id: undefined] 

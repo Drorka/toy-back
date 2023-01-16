@@ -11,7 +11,7 @@ const http = require('http').createServer(app)
 // Express App Config
 app.use(cookieParser())
 app.use(express.json())
-app.use(express.static('public'))
+// app.use(express.static('public'))
 
 if (process.env.NODE_ENV === 'production') {
 	// Express serve static files on production environment
@@ -34,6 +34,7 @@ if (process.env.NODE_ENV === 'production') {
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const toyRoutes = require('./api/toy/toy.routes')
+const { setupSocketAPI } = require('./services/socket.service')
 
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
 app.all('*', setupAsyncLocalStorage)
@@ -42,6 +43,7 @@ app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/toy', toyRoutes)
+setupSocketAPI(http)
 
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
